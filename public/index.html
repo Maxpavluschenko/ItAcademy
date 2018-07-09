@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="background-header">
+            <div class="author">
+                <h1>Maksym Pavlushchenko</h1>
+                <p>Junior Front End Developer</p>
+            </div>
+
+
+            <nav>
+                <div class="topnav" id="topnav">
+                    <a href="#">Home</a>
+                    <a href="#about-me">About me</a>
+                    <a href="#my-skills">My skills</a>
+                    <a href="#hobby">My hobby</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact Us</a>
+                    <a href="#" id="menu" class="icon">&#9776;</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div id="about-me" class="about-me">
+                <div class="about-left">
+                    <h1>About me</h1>
+                    <p>I'm a web developer with 1 years of professional experience. In my works I always try to combine aesthetic
+                        with functional aspects, looking for the right balance to communicate without annoying. 
+                    </p>
+                    <p>
+                        What makes
+                        a great website? Here's my opinion: a successful website should be attractive but easy to read. A
+                        fascinating message, together with an immediate understanding. Original content and easily traceable
+                        information.
+                    </p>
+                </div>
+                <div class="about-right">
+                    <img class="about-me-img" src="images/block-about-me.jpg" alt="macbook">
+                </div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="wrapper">
+                <div id="my-skills" class="my-skills">
+
+                    <div class="about-left">
+                        <h1>My Skills</h1>
+                        <div class="skills-img">
+                            <img src="images/skills.png" alt="my skills in web development">
+                        </div>
+                    </div>
+
+                    <div class="about-right">
+                        <p>For frontend developer one should know following topics:</p>
+                        <ul>
+                            <li>
+                                <span>HTML :</span>Must know what are html tags and how to handcraft HTML templates.</li>
+                            <li>
+                                <span>CSS :</span>While hand crafting template you should require css to make more attractive UI
+                                design.
+                            </li>
+                            <li>
+                                <span>DOM :</span>Document object model and how document is created. If you have good jquery background
+                                you can easily pick up DOM manipulations.</li>
+                            <li>
+                                <span>Object Oriented JavaScript: Global namespace: All JS Framework</span> heavily uses javascript
+                                name space.</li>
+                            <li>
+                                <span>Object Oriented JavaScript: Inheritance:</span>Inheritance is very important concept in JavaScript.
+                                Inheritance is heavily used in all the frameworks in JavaScript.</li>
+                            <li>
+                                <span>Closures and Prototype:</span>Closures and Prototype is heavily used in all JavaScript frameworks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+            <div id="hobby" class="hobby">
+                <h1>My Hobby</h1>
+                <p>My hobby is snowboarding. Every year I spend at least 5 days in the mountains. Snowboarding is an adaptable
+                    activity. Participants can ride as fast and as slow as they like. They can choose their level of difficulty
+                    and, of course, can choose with whom they spend their time. Sometimes there is nothing nicer than sitting
+                    at the top of the mountain admiring the view. I have made many good friends through this activity. At
+                    the start it is a hard, painful learning curve but at the end, when you achieve your educational goals,
+                    you can stand at the top of your chosen mountain with no fear of a hard landing. </p>
+            </div>
+        </div>
+
+        <div id="gallery" class="owl">
+            <h1>Gallery</h1>
+            <div class=" wrapper owl-carousel owl-theme owl-loaded">
+
+                <div class="owl-stage-outer">
+                    <div class="owl-stage">
+
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/bokovel.jpg" alt="bukuvel">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/buk.jpg" alt="bukuvel">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/buka.jpg" alt="bukuvel">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/bukaa.jpg" alt="bukuvel">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/bukaaa.jpg" alt="bukuvel">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/lviv.jpg" alt="mountain high castle">
+                            </div>
+                        </div>
+                        <div class="owl-item">
+                            <div>
+                                <img src="images/moto.jpg" alt="motodrive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="forma">
+                <h1>Contact us</h1>
+                <form class="contact">
+                    <fieldset class="contact-inner">
+                        <p class="contact-input">
+                            <input type="text" name="name" required placeholder="Your Name…">
+                        </p>
+                        <p class="contact-input">
+                            <input type="email" name="email" required placeholder="Your E-mail…">
+                        </p>
+                        <p class="contact-input">
+                            <textarea name="message" placeholder="Your Message…"></textarea>
+                        </p>
+                        <p class="contact-submit">
+                            <input type="submit" value="SendForm">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="address">
+                <address>
+                    Written by
+                    <a href="mailto:max.pavluschenko@gmail.com">Maksym Pavlushchenko</a>.
+                    <br> Visit me at:
+                    <br> 10, Modest Menzinsky Street
+                    <br> Lviv
+                </address>
+                <map name="Navigation">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.98871415557!2d24.0201424157095!3d49.84266957939617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add73c1f1831f%3A0x5ce5284ea5f8c6e2!2z0YPQuy4g0JzQvtC00LXRgdGC0LAg0JzQtdC90YbQuNC90YHQutC-0LPQviwgMTAsINCb0YzQstC-0LIsINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNzkwMDA!5e0!3m2!1sru!2sua!4v1530374729579"
+                        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </map>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="social">
+                <a href="maxpavluschenko@gmail.com" target="blank">
+                    <img src="images/mail.png" alt="mail">
+                </a>
+                <a href="https://www.facebook.com/MaksymPavlushchenko" target="blank">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/max_pavlushchenko/" target="blank">
+                    <img src="images/instagram.png" alt="instagram">
+                </a>
+            </div>
+            <div class="copy">
+                <p>&copy;2018 Max Pavlushchenko</p>
+            </div>
+        </wrapper>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script/owl.carousel.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/index-form.js"></script>
+
+</body>
+
+</html>
