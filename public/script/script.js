@@ -12,7 +12,7 @@
 		});
 		$("#topnav a").on("click", "a", function (event) {
 			event.preventDefault();
-			var id = $(this).attr('href'),
+			let id = $(this).attr('href'),
 				top = $(id).offset().top;
 			$('body,html').animate({
 				scrollTop: top
@@ -23,7 +23,7 @@
 	document.getElementById('menu').addEventListener('click', hamburgerMenu);
 
 	function hamburgerMenu() {
-		var x = document.getElementById('topnav');
+		let x = document.getElementById('topnav');
 
 		if (x.className === "topnav") {
 			x.className += " responsive";
