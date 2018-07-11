@@ -10,7 +10,7 @@
 			autoplaySpeed: 1500,
 			smartSpeed: 1500
 		});
-		$("#topnav a").on("click", "a", function (event) {
+		$("#topnav").on("click", "a", function (event) {
 			event.preventDefault();
 			let id = $(this).attr('href'),
 				top = $(id).offset().top;
