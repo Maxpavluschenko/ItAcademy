@@ -23,12 +23,12 @@
 	document.getElementById('menu').addEventListener('click', hamburgerMenu);
 
 	function hamburgerMenu() {
-		let x = document.getElementById('topnav');
+		let hamburger = document.getElementById('topnav');
 
-		if (x.className === "topnav") {
-			x.className += " responsive";
+		if (hamburger.className === "topnav") {
+			hamburger.className += " responsive";
 		} else {
-			x.className = "topnav";
+			hamburger.className = "topnav";
 		}
 	}
 })();

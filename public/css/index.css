@@ -225,7 +225,8 @@ address {
 }
 .address {
   margin-top: 109px;
-  margin-right: 15%;
+  margin-right: 12%;
+  margin-left: 2%;
 }
 .contacts {
   display: flex;
@@ -386,9 +387,6 @@ footer {
   .forma {
     margin-left: 10%;
   }
-  .address {
-    margin-right: 10%;
-  }
 }
 @media screen and (max-width: 1000px) {
   main .about-me {
@@ -420,9 +418,6 @@ footer {
   }
   .forma {
     margin-left: 5%;
-  }
-  .address {
-    margin-right: 5%;
   }
   .contacts h1 {
     text-align: center;
@@ -482,11 +477,18 @@ footer {
     flex-direction: column;
   }
   .address {
-    margin: 0 auto;
+    width: 100%;
     margin-top: 30px;
+  }
+  iframe {
+    width: 100%;
   }
   .forma {
     margin-left: 0;
+  }
+  .contact {
+    width: 100%;
+    max-width: 400px;
   }
 }
 
@@ -506,6 +508,12 @@ footer {
     font-size: 15px;
   }
   .contacts {
-    padding: 0 10px;
+    padding: 0 20px;
   }
+  .contact-inner .contact-submit {
+    text-align: center;
+  }
+  .owl-nav {
+    display: none;
+}
 }
