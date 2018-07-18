@@ -1,6 +1,6 @@
 body {
   font-family: monospace, "Open Sans", sans-serif;
-  background: #dddddd63;
+  background-color: #dddddd63;
   height: auto;
   max-width: 1400px;
   margin: 0 auto;
@@ -24,6 +24,11 @@ header {
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+iframe {
+  width: 400px;
+  height: 300px;
+  border: 0;
 }
 
 .background-header {
@@ -124,8 +129,8 @@ main .about-me {
   text-transform: uppercase;
 }
 .skills-img {
-    background-color: black;
-    padding: 50px 0 50px 0;
+  background-color: black;
+  padding: 50px 0 50px 0;
 }
 .my-skills .skills-img img {
   width: 100%;
@@ -247,7 +252,6 @@ address {
   width: 350px;
   background: #f3f3f3;
   border: 1px solid #c3c3c3;
-  border-bottom-color: #c3c3c3;
   border-radius: 3px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -289,10 +293,7 @@ address {
   color: #4d5a5e;
   background: white;
   border: 1px solid #d8d8d8;
-  border-bottom-color: #d8d8d8;
   border-radius: 2px;
-  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05),
-    0 1px rgba(255, 255, 255, 0.2);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05),
     0 1px rgba(255, 255, 255, 0.2);
 }
@@ -300,7 +301,6 @@ address {
 .contact-input > textarea:focus {
   border-color: #c05656af;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 8px #f3dcdc;
   box-shadow: 0 0 0 8px #f3d0d07c;
 }
 .lt-ie9 .contact-input > input,
@@ -326,15 +326,12 @@ address {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   background: #ffffff;
   border: 1px solid #ffffff;
-  border-bottom-color: #ffffff;
   border-radius: 15px;
   cursor: pointer;
   background-image: -webkit-linear-gradient(top, #e6f2f7, #000000);
   background-image: -moz-linear-gradient(top, #e6f2f7, #d0e6ee);
   background-image: -o-linear-gradient(top, #e6f2f7, #d0e6ee);
   background-image: linear-gradient(to bottom, #ededed, #ffffff);
-  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.2),
-    0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #eef7f9;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.2),
     0 1px 1px rgba(0, 0, 0, 0.06), 0 0 0 4px #f4f4f4;
 }
@@ -343,8 +340,6 @@ address {
   text-shadow: 0 1px rgba(240, 235, 235, 0.781);
   background: #ffffff;
   border-color: #dbdbdbde #d8d8d8ea #d8d8d8;
-  -webkit-box-shadow: inset 0 1px 3px rgba(238, 235, 235, 0.644),
-    0 1px rgba(243, 243, 243, 0.774), 0 0 0 4px #e7e7e7;
   box-shadow: inset 0 1px 3px rgba(224, 222, 222, 0.712),
     0 1px rgba(235, 233, 233, 0.712), 0 0 0 4px #e7e7e7;
 }
@@ -515,5 +510,5 @@ footer {
   }
   .owl-nav {
     display: none;
-}
+  }
 }
